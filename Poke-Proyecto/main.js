@@ -1,10 +1,10 @@
 // Importa las funciones `pedirPokemons` y `pedirMasInfoDelPokemon` desde el archivo "api" en la carpeta "utils".
 // Estas funciones permiten obtener una lista de Pokémon y detalles adicionales de cada Pokémon.
-import { pedirPokemons, pedirMasInfoDelPokemon } from "../utils/api";
+import { pedirPokemons, pedirMasInfoDelPokemon } from "./utils/api";
 
 // Importa la función `crearPokemonInfoCards` desde el archivo "Card" en la carpeta "components".
 // Esta función genera una tarjeta con la información de un Pokémon.
-import { crearPokemonInfoCards } from "../components/Card";
+import { crearPokemonInfoCards } from "./components/Card";
 
 // Selecciona el elemento HTML con el ID "pokemon-container", donde se añadirán las tarjetas de los Pokémon.
 const pokemonContainer = document.getElementById("pokemon-container");
