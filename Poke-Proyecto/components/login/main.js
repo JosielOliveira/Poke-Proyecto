@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Guardar el estado de login en localStorage
                 localStorage.setItem('loggedIn', 'true');
                 // Redirigir a index.html
-                window.location.href = 'index.html';
+                window.location.href = '.../index.html';
             } else {
                 // Mostrar mensaje de error
                 document.getElementById('error-message').style.display = 'block';

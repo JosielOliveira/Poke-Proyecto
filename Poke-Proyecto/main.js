@@ -1,6 +1,6 @@
 // Importa las funciones `pedirPokemons` y `pedirMasInfoDelPokemon` desde el archivo "api" en la carpeta "utils".
 // Estas funciones permiten obtener una lista de Pokémon y detalles adicionales de cada Pokémon.
-import { pedirPokemons, pedirMasInfoDelPokemon } from "./utils/api";
+import { pedirPokemons, pedirMasInfoDelPokemon } from "./components/Utils/api";
 
 // Importa la función `crearPokemonInfoCards` desde el archivo "Card" en la carpeta "components".
 // Esta función genera una tarjeta con la información de un Pokémon.
